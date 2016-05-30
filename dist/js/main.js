@@ -1,0 +1,2 @@
+/*! grunt_examples 2016-05-30 */
+!function(){console.log("hi i am in custom.js. if you are seeing this then this is working fine!!! :D")}(),function(){console.log("Hi this is test.js, and if you are seeing this everything went well!!!!")}();

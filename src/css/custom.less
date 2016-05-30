@@ -1,0 +1,54 @@
+/*This is to reset the browser specific margin and padding*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* HTML tag css*/
+
+@fontColor : darkgoldenrod;
+header {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+body {
+    color: @fontColor;
+    font-family: cursive;
+}
+main {
+    padding: 5px;
+}
+h2 {
+    padding: 5px;
+}
+#gallery {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    img {
+        padding: 50px;
+        webkit-transition: all 200ms ease-in;
+        -webkit-transform: scale(1);
+        -ms-transition: all 200ms ease-in;
+        -ms-transform: scale(1);
+        -moz-transition: all 200ms ease-in;
+        -moz-transform: scale(1);
+        transition: all 200ms ease-in;
+        transform: scale(1);
+    }
+    img:hover {
+        z-index: 100;
+        -webkit-transition: all 200ms ease-in;
+        -webkit-transform: scale(1.5);
+        -ms-transition: all 200ms ease-in;
+        -ms-transform: scale(1.5);
+        -moz-transition: all 200ms ease-in;
+        -moz-transform: scale(1.5);
+        transition: all 200ms ease-in;
+        transform: scale(1.7);
+    }
+}
