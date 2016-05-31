@@ -1,13 +1,13 @@
 {
-  "name": "grunt_examples",
-  "version": "1.0.0",
+  "name": "grunt_example",
+  "version": "1.0.1",
   "description": "A how to guide to grunt",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "rakeshprakash91",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "grunt": "^1.0.1",
     "grunt-contrib-clean": "^1.0.0",
@@ -17,5 +17,19 @@
     "grunt-contrib-uglify": "latest",
     "grunt-contrib-watch": "latest",
     "jshint-stylish": "latest"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devilwhocodes/gruntExample.git"
+  },
+  "keywords": [
+    "grunt",
+    "uglify",
+    "clean",
+    "minify"
+  ],
+  "bugs": {
+    "url": "https://github.com/devilwhocodes/gruntExample/issues"
+  },
+  "homepage": "https://github.com/devilwhocodes/gruntExample#readme"
 }
